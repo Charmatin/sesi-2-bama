@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+
+    <style>
+        /* 
+        konsep value css
+            1. properti: value: value berlaku untuk semua arah
+            ==> value = atas= bawah= kanan= kiri
+            
+            2. property : value1 value2;
+            ==> value1= atas dan bawah
+            ==> value2= kiri dan kanan
+
+            3. property : value1 value2 value3 value4;
+            ==> value1 = atas
+                value2 = kanan
+                value3 = bawah
+                value4 = kiri
+            
+            
+                4. property-arah: value;
+                misal: 
+                    margin-top: value1
+                    margin-right: value2
+                    padding-left: value3
+           
+        
+        */
+        body {
+            margin:0;
+        }
+         #kotak_1 {
+            background: red;
+            width: 200px;
+            height: 50px;
+            margin: 15px;
+        }
+        #kotak_2 {
+            background: green;
+            width: 130px;
+            height: 80px;
+            margin: 10px 100px;
+        }
+        #kotak_3 {
+            background: goldenrod;
+            width: 300px;
+            height: 100px;
+            margin: 20px 30px 70px 69px;
+        }
+        #kotak_4 {
+            background: brown;
+            width: 100x;
+            height: 65px;
+            margin-left: 300px;
+            margin-bottom: 50px;
+       
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Margin</h1>
+
+    <div id="kotak_1">Kotak 1</div>
+    <div id="kotak_2">Kotak 2</div>
+    <div id="kotak_3">Kotak 3</div>
+    <div id="kotak_4">Kotak 4</div>
+    <div id="kotak_5">Kotak 5</div>
+
+    
+    <!-- 
+
+        <span id="kotak_1">Kotak 1</span>
+        <span id="kotak_2">Kotak 2</span>
+        <span id="kotak_3">Kotak 3</span>
+        <span id="kotak_4">Kotak 4</span>
+        <span id="kotak_5">Kotak 5</span>
+
+     -->
+
+
+</body>
+</html>
